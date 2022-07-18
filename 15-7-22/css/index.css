@@ -1,0 +1,16 @@
+body{
+    background-color:rgb(157, 193, 248);
+}
+.link{
+    background-color: rgb(115, 126, 250);
+    width:700px;
+    height: 50px;
+    border-color: black;
+    border:2px solid black;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    font-size:xx-large;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left:400px;
+}
