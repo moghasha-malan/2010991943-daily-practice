@@ -1,0 +1,14 @@
+body{
+    background:linear-gradient(to bottom,rgb(104, 170, 241),rgba(95, 125, 158, 0.4));
+    background-repeat:no-repeat;
+
+    background-attachment: fixed;
+}
+h1{
+    color:black;
+    background-color: aquamarine;   
+}
+p{
+    color:brown;
+    font-size:x-large;
+}
