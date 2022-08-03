@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+
+    <script>
+      var price1=6;
+      var price2=9;
+      var totolprice=price1+price2;
+      console.log(totolprice)
+    document.getElementById("demo").innerHTML="totol is " + totolprice;
+
+      let person ={
+          firstname:"Moghasha",
+          lastname:"Malan",
+          age:20,
+          eyecolor:"black",
+      };
+      document.getElementById("demo1").innerHTML=person.firstname +"age is "+person.age;
+
+      var n=Number("123");
+      n=n+2;
+      var s="2";
+      s=n+s;
+      document.getElementById("demo2").innerHTML="n(123+2)"+n+",s(n+s)"+s;
+
+    </script>
+</body>
+</html>

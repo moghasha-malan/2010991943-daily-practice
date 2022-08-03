@@ -1,0 +1,21 @@
+body{
+    font-size: 16px;
+    background-image: linear-gradient(to bottom,rgb(104, 170, 241),rgba(95, 125, 158, 0.4));
+    background-attachment: fixed;
+}
+#maindiv{
+    font-size: 32px;
+
+}
+#div1{
+    font-size: 1em;
+}
+#div2{
+    font-size: 1rem;
+}
+#div3{
+    background: rgb(31,0,36);
+background: radial-gradient(circle, rgb(203, 39, 228) 0%, rgba(88, 205, 241, 0.326) 35%, rgb(27, 7, 246) 100%);
+height:290px;
+width:290px;
+}

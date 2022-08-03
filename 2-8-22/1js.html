@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(148, 140, 140);
+        }
+    </style>
+    <script>
+        function myfunction(){
+       alert("may i change hii to hello?")
+    document.getElementById("p1").innerHTML="hello"
+
+        }
+
+        function myfxn(){
+            var n1="7";
+            var str="K";
+            n1=Number(n1);
+            n2=(str);
+            document.getElementById("p2").innerHTML=n1+str;
+            // document.getElementById("n1").value;
+            // document.getElementById("str").value;
+
+        }
+
+        function myfxn2(){
+            var n3=document.getElementById("n3").value;
+            var n4=document.getElementById("n4").value;
+            if(!isNaN(n3)&& !isNaN(n4)){
+                n3=Number(n3);
+                n4=Number(n4);
+                document.getElementById("p3").innerHTML=n3+n4;
+            }
+            else{
+                document.getElementById("p3").innerHTML="<span style='color:red'>please enter no.</span>";
+            }
+
+        }
+    </script>
+</head>
+<body>
+    <button type="button" onclick="myfunction()">click me</button>
+    <p id="p1">hiii</p>
+
+    <h1>add str and no</h1>
+    <!-- n1 <input type="text"id="n1">
+    str <input type="text"id="str"> -->
+    <button type="button" onclick="myfxn()">click me</button>
+    <p id="p2"></p>
+
+
+    <h1>using if else</h1>
+    n3 <input type="text"id="n3">
+    n4 <input type="text"id="n4">
+    <button type="button" onclick="myfxn2()">click me</button>
+    <p id="p3"></p>
+    <!-- <script>
+        alert("hii")
+    </script> -->
+</body>
+</html>
