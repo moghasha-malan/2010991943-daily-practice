@@ -1,0 +1,38 @@
+/* .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid   #395df0;
+  }
+  
+  .button1:hover {
+    background-color: #86b7f3;
+    color: red;
+    /* font-size:medium; */
+   
+    #outer{
+      text-align: center;
+      width:80%;
+      background-color: rgb(112, 114, 114);
+      margin: auto;
+      padding: 5%;
+      margin-top: 50px;
+  }
+  
+  button{
+      margin: 2%;
+      padding :1% 2%;
+      background-color: azure;
+      font-weight: bold;
+  }
+  
+  input{
+      width: 60%;
+      padding: 1%;
+  }
+  
+  #ans{
+      background-color: rgb(11, 11, 11);
+      
+      margin: auto;
+      margin-top: 3%;
+  }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 nos</title>
+    <style>
+        body{
+            background-color: rgb(245, 187, 187);
+        }
+        input{
+            margin: 1%;
+            padding: 1%;
+        }
+       .div1{
+        border:2px solid black;
+        width:400px;
+        margin:70px 70px 70px 490px ;
+        padding-left:100px;
+       }
+       .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid   #395df0;
+  }
+  
+  .button1:hover {
+    background-color: #86b7f3;
+    color: red;
+    /* font-size:medium; */
+  }
+    </style>
+    <script>
+        function cal(){
+            var a = parseInt(document.getElementById("start").value);
+            var b = parseInt(document.getElementById("end").value);
+            var d= document.getElementById("diff").value;
+            var nums="";
+            for(var i=a; i<=b; i++){
+                if(i%d==0)nums=nums+i;
+                nums+=" ";
+            }
+            document.getElementById("res").innerHTML=nums;
+        }
+    </script>
+</head>
+<body>
+    <div class="div1">
+   <b> Start:-</b><input type="number" name="start" id="start" style=" border: none;border-radius: 4px; background-color: #d9d3d3; "><br>
+    <b>End:-</b><input type="number" name="end" id="end"style=" border: none;border-radius: 4px; background-color:  #d9d3d3;  "><br>
+   <b> Difference:-</b> <input type="number" name="diff" id="diff"style=" border: none;border-radius: 4px; background-color:  #d9d3d3;  "><br>
+    <Button onclick="cal()"class="button button1">Divisible by k</Button>
+    <p id="res"></p>
+</div>
+</body>
+</html>

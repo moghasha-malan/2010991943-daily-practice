@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week days</title>
+    <style>
+        body{
+            background-color: rgb(180, 174, 174);
+        }
+        .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid   #395df0;
+  }
+  
+  .button1:hover {
+    background-color: #86b7f3;
+    color: red;
+    
+  }
+    </style>
+    <script>
+        function day(){
+            var num=parseInt(document.getElementById("n").value);
+            var ans;
+            switch(num){
+                case (1):ans = "Monday";
+                    break;
+                case 2:
+                    ans="Tuesday";
+                    break;
+                case 3:
+                    ans="Wednesday";
+                    break;
+                case 4:
+                    ans="Thursday";
+                    break;
+                case 5:
+                    ans="Friday";
+                    break;
+                case 6:
+                    ans="Saturday";
+                    break;
+                case 7:
+                    ans="Sunday";
+                    break;
+                default:
+                    ans="Enter the correct number";
+            }
+            document.getElementById("res").innerHTML="Day = "+ans;
+        }
+    </script>
+</head>
+<body>
+    Enter day <input type="number" name="n" id="n">
+    <button onclick="day()"class="button button1">Find day</button>
+    <p id="res"></p>
+</body>
+</html>
