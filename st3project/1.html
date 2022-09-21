@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/1.css">
+    <title>Planet weight</title>
+    <style>
+        body{
+        background: url(images/1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+     
+        
+.button1{
+
+    background: url(images/earth.png);
+    height:140px;
+width:200px;
+background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+    
+.button2{
+
+background: url(images/jupiter.png);
+height:140px;
+width:200px;
+background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+}
+ 
+.button3{
+
+background: url(images/mars.png);
+height:140px;
+width:200px;
+background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+ 
+.button4{
+
+background: url(images/mercury.png);
+height:140px;
+width:200px;
+background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+}
+ 
+.button5{
+
+background: url(images/neptune.png);
+height:140px;
+width:200px;
+background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+ 
+.button6{
+
+background: url(images/saturn.png);
+height:140px;
+width:200px;
+background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+}
+ 
+.button7{
+
+background: url(images/uranus.png);
+height:140px;
+width:200px;
+background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+}
+ 
+.button8{
+
+background: url(img/venus1.png);
+height:130px;
+width:130px;
+background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  
+
+}
+
+
+     
+    </style>
+<script>
+  
+       
+// document.addEventListener("click", ethweight);
+        // ethbtn.addEventListener("click" , ethweight);
+        function ethweight(){
+     let input = document.getElementById('input').value;
+    document.getElementById('output').value=input;
+   //event.preventDefault();
+console.log(input);
+
+}
+
+//  document.addEventListener("click",jupweight);
+
+ function jupweight(){
+    let input = document.getElementById('input').value;
+    document.getElementById('output').value=(input/9.81)*24.79;
+    //event.preventDefault();
+    console.log(input)
+ }
+
+//  document.addEventListener("click",marweight);
+
+ function marweight(){
+    let input = document.getElementById('input').value;
+    document.getElementById('output').value=(input/9.81)*3.711;
+    //event.preventDefault();
+    console.log(input)
+ }
+
+//  document.addEventListener("click",mercweight);
+
+ function mercweight(){
+    let input = document.getElementById('input').value;
+    document.getElementById('output').value=(input/9.81)*3.7;
+    //event.preventDefault();
+    console.log(input)
+ }
+
+
+//  document.addEventListener("click",nepweight);
+
+ function nepweight(){
+    let input = document.getElementById('input').value;
+    document.getElementById('output').value=(input/9.81)*11.15;
+    //event.preventDefault();
+    console.log(input)
+ }
+
+ 
+//  document.addEventListener("click",satweight);
+
+ function satweight(){
+    let input = document.getElementById('input').value;
+    document.getElementById('output').value=(input/9.81)*10.44;
+    //event.preventDefault();
+    console.log(input)
+ }
+
+
+//  document.addEventListener("click",uraweight);
+
+ function uraweight(){
+    let input = document.getElementById('input').value;
+    document.getElementById('output').value=(input/9.81)*8.69;
+    //event.preventDefault();
+    console.log(input)
+ }
+
+ 
+
+//  document.addEventListener("click",venweight);
+
+ function venweight(){
+    let input = document.getElementById('input').value;
+    document.getElementById('output').value=(input/9.81)*8.87;
+    //event.preventDefault();
+    console.log(input)
+ }
+
+</script>
+   </head>
+<body>
+    <div class="div1">
+        <h1 class="heading" >ENTER WEIGHT ON EARTH</h1>
+        <input type="text"id="input">
+      
+    </div>
+    <div class="row clearfix">
+      <!-- <div class="col">
+          
+        <button class="button3"onclick="marweight()">
+            <h2 class="head">MARS</h2></button>
+        
+          </div>
+          <div class="col1">
+            <button class="button8" onclick="venweight()">
+                </button><h2 class="head1" >VENUS</h2>
+              </div> -->
+              
+        <div class="col">
+             <button id="earth" class="button1" onclick="ethweight();">
+                <h2 class="head">EARTH</h2></button>
+        </div>
+
+        <div class="col">
+            <button class="button2"onclick="jupweight()">
+                <h2 class="head">JUPITER</h2></button>
+          </div>
+
+          <div class="col">
+          
+            <button class="button3"onclick="marweight()">
+                <h2 class="head">MARS</h2></button>
+            
+              </div>
+
+              <div class="col">
+                <button class="button4" onclick="mercweight()">
+                    <h2 class="head">MERCURY</h2></button>
+                  </div>
+
+                  <div class="col">
+                    
+                    <button class="button5" onclick="nepweight()">
+                        <h2 class="head">NEPTUNE</h2></button>
+                      
+                      </div>
+                     
+                      <div class="col2">
+                        <button class="button6" onclick="satweight()">
+                            <h2 class="head">SATURN</h2></button>
+                          </div>
+
+                          <div class="col1">
+                            <button class="button7" onclick="uraweight()">
+                                <h2 class="head">URANUS</h2></button>
+                              </div>
+
+                              <div class="col1">
+                                <button class="button8" onclick="venweight()">
+                                    </button><h2 class="head1" >VENUS</h2>
+                                  </div>
+      </div><BR>
+
+
+      <div class="div2">
+        <h1 class="heading">!!DISPLAY WEIGHT!!</h1>
+        <input type="text" id="output">
+    </div>
+     <!-- <script src="js/main.js"></script> -->
+</body>
+</html>

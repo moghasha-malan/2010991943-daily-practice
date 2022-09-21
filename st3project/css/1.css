@@ -1,0 +1,58 @@
+
+.div1{
+    text-align: center;
+}
+.heading{
+    /* color:rgb(204, 241, 110); */
+    color:rgb(241, 156, 156);
+    /* text-shadow:2px 2px rgb(134, 201, 232); */
+    background-color: transparent;
+}
+.row clearfix{
+    margin-left: 90px;
+}
+.col{
+    /* background-color: brown; */
+   margin-right: 30px;
+   margin-top: 80px;
+    padding:10px;
+    width:250px;
+   float:left;
+    transition: 0.2s all;
+}
+
+.col:hover{
+    scale: 1.2;
+}
+.col2:hover{
+    scale: 1.2;
+}
+.col1:hover{
+    scale: 1.2;
+}
+.col1{
+    margin-right: 30px;
+     padding:10px;
+     width:250px;
+    float:left;   
+}
+.col2{
+    margin-right: 30px;
+   margin-left: 300px;
+     padding:10px;
+     width:250px;
+    float:left;  
+   
+}
+.head{
+    text-align: center;
+    color: white;
+    margin-top:80%;
+}
+.head1{
+    text-align: center;
+    color: white;
+    margin-top:10%;
+}
+
+
